@@ -5,7 +5,7 @@ import requests from "requests";
 
 
 const homeFile = readFileSync("home.html", "utf-8");
-
+mohitvermaiitian
 
 const replaceVal = (tempVal, orgVal) => {
   let temperature = tempVal.replace("{%tempval%}", orgVal.main.temp);
